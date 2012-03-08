@@ -1,7 +1,0 @@
-Hey, this is a versioned text file!
-And now, this changed has been added in the "feature1" clone.
-"feature1" clone is merged back to the original repository.
-This change has been added in a new local branch called "Experimental".
-And this one has been added again in the "default" branch. Weird stuff.
-
-Add some modification to the testfile. And then commit this change locally(!).

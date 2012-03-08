@@ -1,0 +1,268 @@
+		body {
+			padding: 0;
+			margin: 0;
+		}
+		#hang-bg {			
+			width: 500px;
+			height: 500px;
+			margin: auto;
+			padding: 0;
+			position: relative;
+			background-image: url(login.png);
+		}
+		
+		
+		#login-form {
+			position: absolute;
+			margin: 150px 100px;
+			width: 210px;
+			padding: 10px 20px 15px 20px;
+			outline: 1px solid #aaa;
+			background-color: #eee;
+			text-align: right;
+		}
+		
+		#login-form label {
+			display: block;
+			font-size: 18px;
+			line-height:22px;
+			padding-top: 4px;
+			padding-bottom: 2px;
+			padding-top: 7px;
+			text-align: left;
+		}
+		#login-form input {
+			font-size: 18px;
+			line-height:22px;
+			padding: 4px 3px 2px 3px;
+			width: 210px;			
+		}
+		#login-form button {
+			font-size: 22px;
+			line-height:22px;
+			padding: 4px 7px;
+			margin-top: 12px;
+		}
+		
+/*========================================================*/		
+		#naslov {
+			background-color: #efefef;
+			padding: 12px;
+			border-bottom: 1px solid #888;
+		}
+		
+		#menu-bg, .menu-bg {
+			position: absolute;
+			width: 400px;
+			height: 350px;
+			background-position: 0 0;
+			background-repeat: no-repeat;			
+		}
+		#menu-bg {z-index: 995;}
+		#menu_bg1{z-index:1; background-image: url(menu_up.png);}
+		#menu_bg2{z-index:1; background-image: url(menu_middle.png); display: none;}
+		#menu_bg3{z-index:1; background-image: url(menu_down.png); display: none;}
+		#menu {
+			width:  250px;
+			float: right;
+			padding-top: 25px;
+		}
+		.menu-item {
+			display: block;
+			width: 250px;
+			padding: 10px 0;
+			margin: 3px 0 9px 0;
+			text-align: center;
+			text-decoration: none;
+			font-size: 30px;
+			background-color: #555;
+			color: #9e9e9e;
+			z-index: 999;
+		}
+		.menu-item:hover {
+			background-color: #272727;
+			color: #efefef;
+		}
+		
+/*----------------------------------------------*/
+/*-------- ALERTS ------------------------------*/
+	#no-user {
+		width: 400px; 
+		margin: 300px auto;
+		border: 7px solid #7a7a7a;
+		background: #eaeaea;
+		padding: 0 10px 20px 130px;
+		background: #eaeaea url(no-user.png) 0 20px no-repeat;
+	}
+	#found-user {
+		width: 400px; 
+		margin: 300px auto;
+		border: 7px solid #7a7a7a;
+		background: #eaeaea;
+		padding: 0 10px 50px 140px;
+		background: #eaeaea url(welcome.png) 5px 20px no-repeat;
+	}
+	#found-user a {
+		font-weight: bold;
+		font-size: 20px;
+		color: green;
+		text-decoration: none;
+		padding-left: 20px;
+	}
+	#found-user a:hover {
+		text-decoration: underline;
+	}
+	#byby-user {
+		width: 300px; 
+		margin: 300px auto;
+		border: 7px solid #7a7a7a;
+		background: #eaeaea;
+		padding: 0 10px 45px 150px;
+		background: #eaeaea url(byebye.png) 10px 10px no-repeat;
+	}
+
+	
+/*-----------------------------------------------*/
+/*--------- SINGLE GAME -------------------------*/
+
+		#omca {
+			width: 300px;
+			height: 500px;
+			position: relative;
+			float: left;
+			 
+		}
+		#slova {
+			width: 800px;
+			float: left;			 
+		} 
+		#slova div{
+			height: 83px;
+			width: 95px;
+			margin: 2;
+			padding: 0;				
+			position: relative;
+			float: left;
+			background-position: 50% 50%;
+			background-repeat: no-repeat;
+		}
+		.let {
+			display: block;	
+			text-decoration:none;
+			height: 83px;
+			width: 95px;
+			text-align: center;
+			vertical-align: middle;
+			margin: 1px;
+		}
+		.let:hover {
+			outline: 2px solid #999;
+			text-decoration: none;
+		}
+		#nepoznato {
+			 
+			float: left;
+			width: 1000px;
+			height: 40px;
+			padding-left: 30px;
+		}
+		.nepoznato-slovo {
+			width: 26px;
+			height: 30px;
+			/*border: 1px solid blue;*/
+			border-bottom: 3px solid #666;
+			margin: 4px;
+			padding: 5px;
+			font-size: 30px;
+			text-transform: uppercase;
+			text-align: center;
+			float: left;
+			outline: 1px solid red;
+		}
+		.nepoznato-slovo-blanko {
+			width: 30px;
+			height: 30px;
+			margin: 2px;
+			padding: 5px;
+			float: left;
+		}
+
+/*----------------------------------------------------*/
+/*--------- MULTIPLAYER GAME -------------------------*/
+
+		.tabla {
+			position: relative;
+			width: 1200px; 
+			height: 410px;	
+			float: left;
+			margin-bottom: 10px;
+		}
+
+		.slova-multi {
+			width: 800px;
+			float: left;
+			 
+		} 
+		.slova-multi div{
+			height: 40px;
+			width: 45px;
+			margin: 5;
+			padding: 0;				
+			position: relative;
+			float: left;
+			background-position: 45% 10%;
+			background-repeat: no-repeat;
+			background-size: 40px 45px;
+		}
+		.slova-multi div img {
+			width: 40px;
+			height: 45px;
+		}
+		.let-multi {
+			display: block;	
+			text-decoration:none;
+			height: 40px;
+			width: 45px;
+			text-align: center;
+			vertical-align: middle;
+			margin: 1px;
+		}
+		.let-multi img {
+			width: 40px;
+			height: 45px;
+		}
+		.let-multi:hover {
+			outline: 2px solid #999;
+			text-decoration: none;
+		}
+
+		.omca-multi {
+					width: 200px;
+					height: 250px;
+					position: relative;
+					float: left;
+				}
+		.omca-multi img {
+					width: 150px;
+					height: 250px;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
